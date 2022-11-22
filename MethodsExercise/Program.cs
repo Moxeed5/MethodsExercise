@@ -32,33 +32,35 @@ namespace MethodsExercise
             //Console.WriteLine($"{name} dyed his hair {color} because he was going to an {band} show. He took Bob, his {animal} to the show as well");
 
 
-            Console.WriteLine("Input a number to add");
-            int num1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Input a number to add");
+            //int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Input a number to add to the first one");
-            int num2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Input a number to add to the first one");
+            //int num2 = int.Parse(Console.ReadLine());
                 
-            int sum = Sum(num1, num2);
+            //int sum = Sum(num1, num2);
 
-            Console.WriteLine($"The sum is {sum}");
-            //break
+            //Console.WriteLine($"The sum is {sum}");
+            ////break
 
 
-            Console.WriteLine("Input a number to multiply");
-            int x = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Input a number to multiply");
+            //int x = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Input another number to multiply");
-            int y = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Input another number to multiply");
+            //int y = int.Parse(Console.ReadLine());
 
-            int total = Multiply(x, y);
+            //int total = Multiply(x, y);
 
-            Console.WriteLine($"The total is {total}");
+            //Console.WriteLine($"The total is {total}");
 
-            //call methods here
+            ////call methods here
 
-            Sum(num1, num2);
+            //Sum(num1, num2);
 
-            Multiply(x, y);
+            //Multiply(x, y);
+
+            Div(4, 2);
     
 
 
@@ -75,6 +77,12 @@ namespace MethodsExercise
         {
             int total = x * y;
             return total;
+        }
+
+        public static void Div(int x, int y)
+        {
+            int sum = x / y;
+            Console.WriteLine(sum);
         }
     }
 
